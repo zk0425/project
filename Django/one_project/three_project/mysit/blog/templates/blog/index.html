@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'js/lib/bootstrap-3.3.7-dist/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'js/lib/bootstrap-3.3.7-dist/js/bootstrap.js' %}">
+    <link rel="stylesheet" href="{% static 'css/reg.css' %}">
+
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container pull-right">
+            <button type="button" class="btn btn-primary navbar-btn">首页</button>
+            <button type="button" class="btn btn-success navbar-btn">登录</button>
+            <button type="button" class="btn btn-info navbar-btn">注册</button>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="page_header">
+            <div class="jumbotron">
+                  <h1>Hello, Django!</h1>
+                  <p>python----后台管理系统</p>
+                  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <img src="/static/img/xiaohuang.jpg" alt="..." class="img-circle">
+                </li>
+                <li class="list-group-item">博主名称：那坨</li>
+                <li class="list-group-item">博主性别：男</li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+           <div class="panel panel-default">
+              <div class="panel-body">
+                Django 项目是一个Python定制框架，它源自一个在线新闻 Web 站点，于 2005 年以开源的形式被释放出来。Django 框架的核心组件有：<br>
+                    1. 用于创建模型的对象关系映射<br>
+                    2. 为最终用户设计的完美管理界面<br>
+                    3. 一流的 URL 设计<br>
+                    4. 设计者友好的模板语言<br>
+                    5. 缓存系统。<br>
+                Django的主要目的是简便、快速的开发数据库驱动的网站。它强调代码复用，多个组件可以很方便的以“插件”形式服务于整个框架，Django有许多功能强大的第三方插件，你甚至可以很方便的开发出自己的工具包。这使得Django具有很强的可扩展性。它还强调快速开发和DRY(Do Not Repeat Yourself)原则。<br>
+                    Django基于MVC的设计十分优美：<br>
+                        ● 对象关系映射 (ORM,object-relational mapping)：以Python类形式定义你的数据模型，ORM将模型与关系数据库连接起来，你将得到一个非常容易使用的数据库API，同时你也可以在Django中使用原始的SQL语句。<br>
+                        ● URL 分派：使用正则表达式匹配URL，你可以设计任意的URL，没有框架的特定限定。像你喜欢的一样灵活。<br>
+                        ● 模版系统：使用Django强大而可扩展的模板语言，可以分隔设计、内容和Python代码。并且具有可继承性。<br>
+                        ● 表单处理：你可以方便的生成各种表单模型，实现表单的有效性检验。可以方便的从你定义的模型实例生成相应的表单。<br>
+                        ● Cache系统：可以挂在内存缓冲或其它的框架实现超级缓冲 －－ 实现你所需要的粒度。<br>
+                        ● 会话(session)，用户登录与权限检查，快速开发用户会话功能。<br>
+                        ● 国际化：内置国际化系统，方便开发出多种语言的网站。<br>
+                        ● 自动化的管理界面：不需要你花大量的工作来创建人员管理和更新内容。Django自带一个ADMIN site,类似于内容管理系统<br>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
